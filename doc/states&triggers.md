@@ -26,6 +26,9 @@
 | Night        | No            | Yes                   | Yes                | Yes                 |
 | Endgame      | No            | No                    | No                 | No                  |
 
+
+
+```mermaid
 graph TD;
   A[Introduction state] -->|Start game| B[Day state];
   B -->|Vote to Lynch| C[Night state];
